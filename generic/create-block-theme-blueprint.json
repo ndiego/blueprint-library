@@ -25,7 +25,7 @@
 		},
 		{
 			"step": "wp-cli",
-			"command": "wp plugin delete hello-dolly"
+			"command": "wp plugin delete hello"
 		},
 		{
 			"step": "installPlugin",
