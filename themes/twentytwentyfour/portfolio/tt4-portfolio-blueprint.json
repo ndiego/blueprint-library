@@ -51,6 +51,10 @@
 		{
 			"step": "wp-cli",
 			"command": "wp option update site_logo 137"
+		},
+		{
+			"step": "wp-cli",
+			"command": "wp plugin delete hello-dolly"
 		}
 	]
 }

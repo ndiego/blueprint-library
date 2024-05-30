@@ -24,6 +24,10 @@
 			"userId": 1
 		},
 		{
+			"step": "wp-cli",
+			"command": "wp plugin delete hello-dolly"
+		},
+		{
 			"step": "installPlugin",
 			"pluginZipFile": {
 				"resource": "wordpress.org/plugins",
