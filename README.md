@@ -1,6 +1,8 @@
 # Blueprint Library
 
-A personal collection of WordPress Playground blueprints that launch demo sites for various WordPress themes, plugins, or generic examples. These blueprints are useful when you need to create video demos or simply test WordPress.
+A collection of [WordPress Playground](https://wordpress.github.io/wordpress-playground/) blueprints that launch demo sites for various WordPress themes, plugins, or generic examples.
+
+While the blueprints provided here are primarily for personal use, you are welcome to use or customize them to suit your own requirements. You can also check out many other great examples in the official [WordPress Blueprints Community Gallery](https://github.com/WordPress/blueprints). 
 
 ## Plugins
 
