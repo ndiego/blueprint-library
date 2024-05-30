@@ -29,13 +29,6 @@
 				"resource": "wordpress.org/plugins",
 				"slug": "gutenberg"
 			}
-		},
-		{
-			"step": "installPlugin",
-			"pluginZipFile": {
-				"resource": "wordpress.org/plugins",
-				"slug": "create-block-theme"
-			}
 		}
 	]
 }
