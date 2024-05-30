@@ -28,6 +28,10 @@
 			"command": "wp post delete 1 2 3 --force"
 		},
 		{
+			"step": "wp-cli",
+			"command": "wp option update site_logo 137"
+		},
+		{
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
