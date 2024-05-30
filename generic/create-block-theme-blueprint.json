@@ -4,6 +4,7 @@
 		"php": "8.0",
 		"wp": "latest"
 	},
+	"landingPage": "/wp-admin/?welcome=0",
 	"login": true,
     "features": {
 		"networking": true
