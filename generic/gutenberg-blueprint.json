@@ -6,7 +6,7 @@
 	},
 	"landingPage": "/wp-admin/?welcome=0",
 	"login": true,
-    "features": {
+	"features": {
 		"networking": true
 	},
 	"steps": [
@@ -23,7 +23,7 @@
 			},
 			"userId": 1
 		},
-        {
+		{
 			"step": "installPlugin",
 			"pluginZipFile": {
 				"resource": "wordpress.org/plugins",

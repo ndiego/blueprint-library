@@ -4,9 +4,9 @@
 		"php": "8.0",
 		"wp": "latest"
 	},
-    "landingPage": "/wp-admin/site-editor.php",
+	"landingPage": "/wp-admin/site-editor.php",
 	"login": true,
-    "features": {
+	"features": {
 		"networking": true
 	},
 	"steps": [
@@ -23,18 +23,18 @@
 			},
 			"userId": 1
 		},
-        {
+		{
 			"step": "wp-cli",
-			"command": "wp post delete 1 2 --force"
+			"command": "wp post delete 1 2 3 --force"
 		},
-        {
+		{
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
 				"url": "https://raw.githubusercontent.com/ndiego/wp-demo-sites/main/themes/twentytwentyfour/portfolio/tt4-portfolio-content.xml"
 			}
 		},
-        {
+		{
 			"step": "installPlugin",
 			"pluginZipFile": {
 				"resource": "wordpress.org/plugins",
