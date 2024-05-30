@@ -24,12 +24,22 @@
 			"userId": 1
 		},
 		{
-			"step": "wp-cli",
-			"command": "wp post delete 1 2 3 --force"
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "gutenberg"
+			}
+		},
+		{
+			"step": "installTheme",
+			"themeZipFile": {
+				"resource": "wordpress.org/themes",
+				"slug": "twentytwentyfour"
+			}
 		},
 		{
 			"step": "wp-cli",
-			"command": "wp option update site_logo 137"
+			"command": "wp post delete 1 2 3 --force"
 		},
 		{
 			"step": "importWxr",
@@ -39,11 +49,8 @@
 			}
 		},
 		{
-			"step": "installPlugin",
-			"pluginZipFile": {
-				"resource": "wordpress.org/plugins",
-				"slug": "gutenberg"
-			}
+			"step": "wp-cli",
+			"command": "wp option update site_logo 137"
 		}
 	]
 }
