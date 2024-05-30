@@ -4,8 +4,8 @@ A collection of WordPress Playground blueprints that launch demo sites for vario
 
 ## Generic
 
-- [Gutenberg](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ndiego/block-visibility/main/generic/gutenberg-testing.json)
-- [Create Block Theme](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ndiego/block-visibility/main/generic/create-block-theme-testing.json)
+- [Gutenberg](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ndiego/block-visibility/main/generic/gutenberg-blueprint.json)
+- [Create Block Theme](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/ndiego/block-visibility/main/generic/create-block-theme-blueprint.json)
 
 ## Twenty Twenty-Four
 
