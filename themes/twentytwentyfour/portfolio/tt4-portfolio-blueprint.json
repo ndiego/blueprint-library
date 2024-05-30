@@ -24,6 +24,10 @@
 			"userId": 1
 		},
         {
+			"step": "wp-cli",
+			"command": "wp post delete 1 2 --force"
+		},
+        {
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
