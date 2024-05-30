@@ -1,0 +1,40 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": {
+		"php": "8.0",
+		"wp": "latest"
+	},
+	"login": true,
+    "features": {
+		"networking": true
+	},
+	"steps": [
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "Leia Acosta"
+			}
+		},
+		{
+			"step": "updateUserMeta",
+			"meta": {
+				"admin_color": "modern"
+			},
+			"userId": 1
+		},
+        {
+			"step": "importWxr",
+			"file": {
+				"resource": "url",
+				"url": "https://raw.githubusercontent.com/ndiego/wp-demo-sites/main/themes/twentytwentyfour/portfolio/tt4-portfolio-content.xml"
+			}
+		},
+        {
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "gutenberg"
+			}
+		}
+	]
+}

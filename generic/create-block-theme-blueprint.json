@@ -1,0 +1,33 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": {
+		"php": "8.0",
+		"wp": "latest"
+	},
+	"login": true,
+    "features": {
+		"networking": true
+	},
+	"steps": [
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"blogname": "Sandbox"
+			}
+		},
+		{
+			"step": "updateUserMeta",
+			"meta": {
+				"admin_color": "modern"
+			},
+			"userId": 1
+		},
+		{
+			"step": "installPlugin",
+			"pluginZipFile": {
+				"resource": "wordpress.org/plugins",
+				"slug": "create-block-theme"
+			}
+		}
+	]
+}
