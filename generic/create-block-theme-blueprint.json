@@ -4,7 +4,7 @@
 		"php": "8.0",
 		"wp": "latest"
 	},
-	"landingPage": "/wp-admin/?welcome=0",
+	"landingPage": "/wp-admin/",
 	"login": true,
 	"features": {
 		"networking": true
@@ -19,7 +19,8 @@
 		{
 			"step": "updateUserMeta",
 			"meta": {
-				"admin_color": "modern"
+				"admin_color": "modern",
+				"show_welcome_panel": 0
 			},
 			"userId": 1
 		},
