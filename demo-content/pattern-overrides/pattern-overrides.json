@@ -35,7 +35,7 @@
 			"step": "importWxr",
 			"file": {
 				"resource": "url",
-				"url": "https://raw.githubusercontent.com/ndiego/wp-demo-sites/main/themes/twentytwentyfour/portfolio/tt4-portfolio-content.xml"
+				"url": "https://raw.githubusercontent.com/ndiego/blueprint-library/main/demo-content/pattern-overrides/pattern-overrides-content.xml"
 			}
 		}
 	]
